@@ -1,0 +1,27 @@
+---
+title: "01 — Data Exploration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse); library(janitor); library(lubridate); library(readr)
+```
+
+## Goal
+Quick audit of data quality and initial signals.
+
+```{r load}
+# Replace with your file
+# df <- read_csv('data/raw/transactions.csv')
+# glimpse(df)
+```
+
+```{r qa}
+# Example QA checks
+# df %>% summarise(across(everything(), ~sum(is.na(.))))
+```
+
+```{r save}
+# write_rds(cleaned_df, 'data/processed/transactions_clean.rds')
+```

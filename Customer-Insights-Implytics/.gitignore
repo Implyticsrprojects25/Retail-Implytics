@@ -1,0 +1,20 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+
+# renv caches
+renv/library/
+renv/staging/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# data outputs (keep raw/processed dirs, but ignore big files by default)
+outputs/*
+!outputs/.gitkeep
+
+# Allow notebooks and scripts
