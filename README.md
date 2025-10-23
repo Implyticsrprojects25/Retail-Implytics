@@ -8,7 +8,11 @@ Customer-Insights-Analytics and Product-Segmentation-Analytics
   <img src="assets/Implytics_Banner.png" width="100%" alt="Implytics Retail Analytics Hub Banner">
 </p>
 
-<h1 align="center">🛍️ Retail-Implytics</h1>
+
+---
+
+
+<h1 align="center">Retail-Implytics</h1>
 
 <p align="center">
   <strong>Data Analytics | Customer Insights | Retail Intelligence</strong><br>
@@ -91,7 +95,7 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 
 ---
 
-## 🧠 Insights Philosophy
+## Our Insights Philosophy
 > “Data tells the story. Analytics gives it meaning.  
 > Implytics exists to bridge that gap — where insight meets improvement.”
 
