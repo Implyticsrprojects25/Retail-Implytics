@@ -1,6 +1,6 @@
 # Retail Implytics
-Retail-Implytics” is my umbrella / portfolio root repository — it links to and documents specialised data analysis sub-projects such as 
-Customer-Insights-Implytics and Product-Segmentation-Implytics
+"Retail-Implytics” is my umbrella / portfolio root repository — it links to and documents specialised data analysis sub-projects such as 
+Customer-Insights-Analytics and Product-Segmentation-Analytics
 > Retail Data Insight Track: Trust · Turn · Transform · Improve  
 > Project Lead: Djeneba C. S.
 
