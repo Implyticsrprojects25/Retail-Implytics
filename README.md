@@ -107,7 +107,7 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
   <strong>© 2025 Implytics R Projects | Djeneba C.S.</strong><br>
   <em>Retail Analytics · Customer Insights · Data Science Storytelling</em>
 </p>
-## Folder Structure
+
 
 
 ...
