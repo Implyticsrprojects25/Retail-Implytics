@@ -46,8 +46,8 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 🟡 Product-Segmentation-Implytics| Product mix analysis and demand classification. | R, dplyr, ggplot2 | 🔧 In progress |
 🟢 Retail-Forecast-Implytics| Time-series forecasting of category sales and promotions. | R, Prophet, forecast | 🧩 Planned |
 ---
-
-<h2 align="center">🖼️ Featured Project Gallery</h2>
+### 🧠 Customer Insights — Chips Category
+[Explore the repo →](<h2 align="center">🖼️ Featured Project Gallery</h2>
 
 <p align="center">
   <em>Explore selected Implytics analytical case studies — from customer loyalty segmentation to retail forecasting.</em>
@@ -95,6 +95,13 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
     </td>
   </tr>
 </table>
+
+- RFM segmentation & LTV baseline
+- Power BI snapshot (optimized PNG/PDF)
+- Reproducible environment via `renv.lock`
+
+
+
 
 ---
 
