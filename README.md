@@ -1,5 +1,5 @@
 
-## 🧭 Retail-Implytics · Portfolio Showcase
+## Retail-Implytics · Portfolio Showcase
 
 **Retail-Implytics** serves as the **portfolio hub** of the Implytics ecosystem — showcasing analytical projects, dashboards, and predictive models across retail, HR, and learning analytics domains.
 
