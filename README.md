@@ -1,6 +1,9 @@
 
+## 🧭 Retail-Implytics · Portfolio Showcase
 
-# Retail Implytics
+**Retail-Implytics** serves as the **portfolio hub** of the Implytics ecosystem — showcasing analytical projects, dashboards, and predictive models across retail, HR, and learning analytics domains.
+
+Each project below links directly to its GitHub repository and includes a short summary of its focus, methods, and visualisation highlights.
 "Retail-Implytics” is my umbrella / portfolio root repository — it links to and documents specialised data analysis sub-projects such as 
 Customer-Insights-Analytics and Product-Segmentation-Analytics
 > Retail Data Insight Track: Trust · Turn · Transform · Improve  
@@ -66,12 +69,6 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 🟢 Retail-Forecast-Implytics| Time-series forecasting of category sales and promotions. | R, Prophet, forecast | 🧩 Planned |
 ---
 
-- RFM segmentation & LTV baseline
-- Power BI snapshot (optimized PNG/PDF)
-- Reproducible environment via `renv.lock`
-
-
----
 
 ## Toolkit & Technologies
 - **R / RStudio** – Core analytical environment  
@@ -113,14 +110,7 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 
 ---
 
-## Brand Identity
-- **Founder & Analyst:** Djeneba C. S.  
-- **Tagline:** *Trust · Turn · Transform · Improve*  
-- **Palette:** Purple (#6C4CC5), Yellow (#F5D547), Teal (#2EC4B6)  
-- **Fonts:** Sans-serif, clean analytics typography  
-- **Logo Asset:** `assets/Implytics_Banner.png`  
 
----
 
 ## Our Insights Philosophy
 > “Data tells the story. Analytics gives it meaning.  
@@ -134,12 +124,11 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 </p>
 
 
-
-## 🧭 Retail-Implytics · Portfolio Showcase
-
-**Retail-Implytics** serves as the **portfolio hub** of the Implytics ecosystem — showcasing analytical projects, dashboards, and predictive models across retail, HR, and learning analytics domains.
-
-Each project below links directly to its GitHub repository and includes a short summary of its focus, methods, and visualization highlights.
-
 ---
+## Brand Identity
+- **Founder & Analyst:** Djeneba C. S.  
+- **Tagline:** *Trust · Turn · Transform · Improve*  
+- **Palette:** Purple (#6C4CC5), Yellow (#F5D547), Teal (#2EC4B6)  
+- **Fonts:** Sans-serif, clean analytics typography  
+- **Logo Asset:** `assets/Implytics_Banner.png`  
 
