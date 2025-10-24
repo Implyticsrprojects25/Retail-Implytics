@@ -42,61 +42,7 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 
 | Project | Description | Tech Stack | Status |
 |----------|--------------|-------------|---------|
-
----
-
-<h2 align="center">🖼️ Featured Project Gallery</h2>
-
-<p align="center">
-  <em>Explore selected Implytics analytical case studies — from customer loyalty segmentation to retail forecasting.</em>
-</p>
-
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://github.com/Implyticsrprojects25/Customer-Insights-Implytics">
-        <img src="https://github.com/Implyticsrprojects25/Customer-Insights-Implytics/raw/main/assets/Customer_Insights_Banner.png" width="100%" alt="Customer Insights Implytics">
-      </a>
-      <br>
-      <b>Customer Insights Implytics</b><br>
-      <sub>RFM Segmentation | R | Power BI | Predictive Analytics</sub>
-      <br><br>
-      <a href="https://github.com/Implyticsrprojects25/Customer-Insights-Implytics">
-        <img src="https://img.shields.io/badge/View%20Project-blue?style=for-the-badge">
-      </a>
-    </td>
-
-    <td align="center" width="33%">
-      <a href="https://github.com/Implyticsrprojects25/Product-Segmentation-Implytics">
-        <img src="https://github.com/Implyticsrprojects25/Product-Segmentation-Implytics/raw/main/assets/Product_Segmentation_Banner.png" width="100%" alt="Product Segmentation Implytics">
-      </a>
-      <br>
-      <b>Product Segmentation Implytics</b><br>
-      <sub>Product Mix | ggplot2 | Sales Patterns | Data Wrangling</sub>
-      <br><br>
-      <a href="https://github.com/Implyticsrprojects25/Product-Segmentation-Implytics">
-        <img src="https://img.shields.io/badge/View%20Project-purple?style=for-the-badge">
-      </a>
-    </td>
-
-    <td align="center" width="33%">
-      <a href="https://github.com/Implyticsrprojects25/Retail-Forecast-Implytics">
-        <img src="https://github.com/Implyticsrprojects25/Retail-Forecast-Implytics/raw/main/assets/Retail_Forecast_Banner.png" width="100%" alt="Retail Forecast Implytics">
-      </a>
-      <br>
-      <b>Retail Forecast Implytics</b><br>
-      <sub>Prophet | Time-Series | Promotion Impact | R</sub>
-      <br><br>
-      <a href="https://github.com/Implyticsrprojects25/Retail-Forecast-Implytics">
-        <img src="https://img.shields.io/badge/View%20Project-teal?style=for-the-badge">
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-🟣 Customer-Insights-Implytics| RFM segmentation and behavioural clustering using transactional data. | R, tidyverse, ggplot2, Power BI | ✅ Completed |
+🟣 Customer-Insights-Implytics| RFM segmentation and behavioural clustering using   transactional data. | R, tidyverse, ggplot2, Power BI | ✅ Completed |
 🟡 Product-Segmentation-Implytics| Product mix analysis and demand classification. | R, dplyr, ggplot2 | 🔧 In progress |
 🟢 Retail-Forecast-Implytics| Time-series forecasting of category sales and promotions. | R, Prophet, forecast | 🧩 Planned |
 
