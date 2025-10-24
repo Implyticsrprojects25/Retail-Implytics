@@ -7,7 +7,7 @@ Customer-Insights-Analytics and Product-Segmentation-Analytics
 > Project Lead: Djeneba C. S.
 
 <p align="center">
-  <img src="assets/Implytics_Banner.png" width="100%" alt="Implytics Retail Analytics Hub Banner">
+  <img src="assets/Retail-Implytics_Banner.png" width="100%" alt="Implytics Retail Analytics Hub Banner">
 </p>
 
 
