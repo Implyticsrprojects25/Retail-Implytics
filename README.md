@@ -40,6 +40,9 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 
 ## Project Portfolio
 
+| Project | Description | Tech Stack | Status |
+|----------|--------------|-------------|---------|
+
 ---
 
 <h2 align="center">🖼️ Featured Project Gallery</h2>
@@ -93,14 +96,9 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 
 ---
 
-
-
-
-| Project | Description | Tech Stack | Status |
-|----------|--------------|-------------|---------|
-| [Customer-Insights-Implytics](https://github.com/Implyticsrprojects25/Customer-Insights-Implytics) | RFM segmentation and behavioural clustering using transactional data. | R, tidyverse, ggplot2, Power BI | ✅ Completed |
-| [Product-Segmentation-Implytics](#) | Product mix analysis and demand classification. | R, dplyr, ggplot2 | 🔧 In progress |
-| [📈 Retail-Forecast-Implytics](#) | Time-series forecasting of category sales and promotions. | R, Prophet, forecast | 🧩 Planned |
+🟣 Customer-Insights-Implytics| RFM segmentation and behavioural clustering using transactional data. | R, tidyverse, ggplot2, Power BI | ✅ Completed |
+🟡 Product-Segmentation-Implytics| Product mix analysis and demand classification. | R, dplyr, ggplot2 | 🔧 In progress |
+🟢 Retail-Forecast-Implytics| Time-series forecasting of category sales and promotions. | R, Prophet, forecast | 🧩 Planned |
 
 ---
 
