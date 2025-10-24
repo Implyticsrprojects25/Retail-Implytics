@@ -117,6 +117,58 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 
 
 
+## 🧭 Retail-Implytics · Portfolio Showcase
+
+**Retail-Implytics** serves as the **portfolio hub** of the Implytics ecosystem — showcasing analytical projects, dashboards, and predictive models across retail, HR, and learning analytics domains.
+
+Each project below links directly to its GitHub repository and includes a short summary of its focus, methods, and visualization highlights.
+
+---
+
+### 🧠 Customer Insights — Chips Category  
+**Repo:** [Customer-Insights-Implytics](https://github.com/ImplyticsrProjects25/Customer-Insights-Implytics)  
+**Focus:** RFM segmentation, customer loyalty prediction, and purchasing behavior analysis.  
+**Highlights:**  
+- RFM quadrants and loyalty segment prediction model  
+- Power BI dashboard for purchase trends  
+- SQL-driven data transformation pipeline  
+
+---
+
+### 📊 HR Attrition & Diversity Funnel  
+**Repo:** [Ppex-Implytics](https://github.com/ImplyticsrProjects25/Ppex-Implytics)  
+**Focus:** People Experience analytics — monitoring onboarding, attrition, and DEI metrics.  
+**Highlights:**  
+- HR dashboard (Power BI) with funnel & trend analysis  
+- Predictive attrition modelling (R / DAX)  
+- Interactive data storytelling report  
+
+---
+
+### 🧾 Retail Merchandising Simulation  
+**Repo:** [Retail-Implytics](https://github.com/ImplyticsrProjects25/Retail-Implytics)  
+**Focus:** Store-level operations, stock optimization, and pricing elasticity.  
+**Highlights:**  
+- Data cleaning & visualization pipeline in R  
+- Margin and markdown optimization model  
+- Scenario simulation dashboard  
+
+---
+
+### 📚 EdTech Implytics — Learning Analytics  
+**Repo:** [EdTech-Implytics](https://github.com/ImplyticsrProjects25/EdTech-Implytics)  
+**Focus:** Learning engagement, performance prediction, and feedback analytics.  
+**Highlights:**  
+- Student engagement model (R, ggplot2)  
+- Course completion prediction with logistic regression  
+- Education analytics dashboard  
+
+---
+
+### 🧩 Portfolio Index  
+All Implytics analytical repositories follow a consistent structure pattern:
+
+
 ...
 
 
