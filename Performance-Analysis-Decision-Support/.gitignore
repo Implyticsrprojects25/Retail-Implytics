@@ -1,0 +1,14 @@
+# RStudio / R
+.Rhistory
+.RData
+.Ruserdata/
+.Rproj.user/
+*.Rproj
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Quantium case - keep data out of GitHub
+02_quantium_chips_case/data_raw/
+02_quantium_chips_case/data_processed/
