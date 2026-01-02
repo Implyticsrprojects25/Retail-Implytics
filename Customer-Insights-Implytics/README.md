@@ -1,60 +1,43 @@
-# Customer-Insights-Implytics 🚀
+# Customer Insights Implytics Case (Decision-Support Portfolio)
 
-Part of the **Retail-Implytics** portfolio.  
-**Implytics mantra:** _Trust · Turn · Transform · Improve_.
+## Purpose
+Produce a strategic, data-backed recommendation for the Customer Relation Consultant by analysing customer segments and their purchasing trends.  
+Focus: decision-support insight (not pure data science), with clear metrics, assumptions, and commercial implications.
 
-## 🎯 Objective
-Analyze customer purchase behavior to surface actionable insights for category managers:
-- Identify high‑value segments (e.g., RFM: Champions, Loyal, At Risk).
-- Drivers of spend and frequency by segment and product family.
-- Practical recommendations to increase retention and basket size.
+## Data inputs (raw)
+Location: `data_raw/`
+- `Purchase_behaviour.csv`  
+  Customer attributes: `LYLTY_CARD_NBR`, `LIFESTAGE`, `PREMIUM_CUSTOMER` RFM, LOYAL, …
+- `Transaction_data.xlsx`  
+  Transaction-level records (e.g., date, product, quantity, sales) for chip purchases
 
-## 📦 Data
-Place source files in `data/raw/`. Keep transformed tables in `data/processed/`.
-> Tip: avoid committing large/raw data files. Version the processing scripts instead.
+## Reproducible workflow
+### Step 1 — Load & persist
+Script: `R/01_load_raw_data.R`  
+Outputs (saved for fast reload): `data_processed/`
+- `purchase_behaviour.rds`
+- `transaction_data.rds`
 
-## 📐 Metrics & Features (starter)
-- **RFM**: Recency, Frequency, Monetary value
-- **Basket metrics**: items per basket, AOV, category mix
-- **Customer lifecycle**: first/last purchase, tenure, churn proxy
-- **Cohorts**: monthly acquisition & retention
+### Step 2 — Data quality checks (next)
+Planned script: `R/02_data_quality_checks.R`
+- Schema and type checks
+- Missing values and duplicates
+- Key integrity checks (`LYLTY_CARD_NBR`, transaction date/product fields)
+- Outliers and basic sanity summaries
 
-## 🗺️ Project Plan (suggested)
-1. Data audit & cleaning (`notebooks/01_exploration.Rmd`)
-2. Feature engineering (`scripts/02_features.R`)
-3. Segmentation & profiling (`scripts/03_segmentation_rfm.R`)
-4. Insights & viz (`notebooks/04_insights.Rmd`)
-5. Executive summary (`docs/executive-summary.md`)
+### Step 3 — Feature engineering & segmentation (planned)
+-	Pack size + brand extraction from product name
+-	Customer-level metrics: total spend, total units, transactions, avg basket, avg price per unit
+-	segment comparison by RFM
+-	segment comparisons by `LIFESTAGE` × `PREMIUM_CUSTOMER`
 
-## 🧪 Environment (reproducible)
-Use `renv` to pin package versions.
 
-```r
-# one-time setup
-source("scripts/01_setup_renv.R")
-# later sessions
-renv::activate()
-```
+### Step 4 — Recommendation (planned)
+Translate insights into actions:
+- range/pack-size optimisation
+- targeted promotions by segment
+- store/category performance levers supported by evidence
 
-## 🧱 Repo Structure
-```
-Customer-Insights-Implytics/
-├─ R/                      # utility functions
-├─ scripts/                # data prep, features, modeling
-├─ data/
-│  ├─ raw/                 # input data (not versioned ideally)
-│  └─ processed/           # cleaned/derived data
-├─ notebooks/              # Rmd/Qmd analysis
-├─ docs/                   # reports, slides, summaries
-├─ outputs/                # exported charts, tables (gitignored)
-├─ .gitignore
-├─ Customer-Insights-Implytics.Rproj
-└─ README.md
-```
-
-## 🔗 Portfolio linkage
-> Part of the **Retail‑Implytics** hub repository.
-
----
-
-© 2025 Implytics R Projects | D.C.S.
+## Notes
+- Raw data is never modified; all outputs are derived and saved under `data_processed/`.
+- Aim: demonstrate transferable performance analysis and decision-support discipline (public sector analogue: service performance metrics, segmentation of user cohorts, and intervention evaluation).
