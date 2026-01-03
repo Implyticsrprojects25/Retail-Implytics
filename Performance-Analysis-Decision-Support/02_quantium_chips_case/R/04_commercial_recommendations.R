@@ -1,6 +1,7 @@
 # 04_recommendations.R
 # Purpose: Translate Step 3 outputs into commercial recommendations
 
+library(readr)
 library(dplyr)
 library(stringr)
 
@@ -91,3 +92,50 @@ names(segment_summary)
 
 # Confirm avg_basket exists (if Step 4 expects it)
 "avg_basket" %in% names(segment_summary)
+
+# ---- Public outputs (safe to commit) ----
+out_dir <- "02_quantium_chips_case/output_public"
+dir.create(out_dir, showWarnings = FALSE)
+
+write_csv(segment_summary,
+          file.path(out_dir, "segment_summary.csv"))
+
+write_csv(commercial_recommendations,
+          file.path(out_dir, "commercial_recommendations.csv"))
+
+seg_rds <- "02_quantium_chips_case/data_processed/segment_summary.rds"
+
+if (file.exists(seg_rds)) {
+  segment_summary <- readRDS(seg_rds)
+} else {
+  stop("segment_summary.rds not found. Run 03_customer_segments.R first to generate it.")
+}
+
+customer_metrics  <- readRDS("02_quantium_chips_case/data_processed/customer_metrics.rds")
+customer_enriched <- readRDS("02_quantium_chips_case/data_processed/customer_enriched.rds")
+pack_pref_by_segment <- readRDS("02_quantium_chips_case/data_processed/pack_pref_by_segment.rds")
+
+
+seg_rds <- "02_quantium_chips_case/data_processed/segment_summary.rds"
+stopifnot(file.exists(seg_rds))
+segment_summary <- readRDS(seg_rds)
+
+readr::write_csv(segment_summary, "02_quantium_chips_case/output_public/segment_summary.csv")
+top10 <- segment_summary %>%
+  arrange(desc(avg_total_spend)) %>%
+  head(10)
+
+readr::write_csv(top10, "02_quantium_chips_case/output_public/top10_segments_by_avg_spend.csv")
+pack_pref <- readRDS("02_quantium_chips_case/data_processed/pack_pref_by_segment.rds")
+
+top_pack <- pack_pref %>%
+  filter(!is.na(PACK_SIZE_G)) %>%
+  group_by(LIFESTAGE, PREMIUM_CUSTOMER) %>%
+  summarise(
+    top_pack_size_g = PACK_SIZE_G[which.max(total_sales)],
+    top_pack_sales  = max(total_sales),
+    .groups = "drop"
+  )
+
+readr::write_csv(top_pack, "02_quantium_chips_case/output_public/top_pack_size_by_segment.csv")
+

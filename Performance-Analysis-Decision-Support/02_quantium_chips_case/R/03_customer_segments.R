@@ -140,3 +140,5 @@ saveRDS(segment_summary,
 saveRDS(pack_pref_by_segment,
         "02_quantium_chips_case/data_processed/pack_pref_by_segment.rds")
 
+saveRDS(segment_summary, "02_quantium_chips_case/data_processed/segment_summary.rds")
+
