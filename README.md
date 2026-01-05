@@ -56,8 +56,8 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 **Repo:** [Retail-Implytics](https://github.com/ImplyticsrProjects25/Retail-Implytics)  
 **Focus:** Store-level operations, stock optimization, and pricing elasticity.  
 **Highlights:**  
-- Data cleaning & visualization pipeline in R  
-- Margin and markdown optimization model  
+- Data cleaning & visualisation pipeline in R  
+- Margin and markdown optimisation model  
 - Scenario simulation dashboard  
 
 ...
@@ -66,7 +66,7 @@ Each sub-project is a standalone repository focused on a core theme (customer, p
 |----------|--------------|-------------|---------|
 🟣 Customer-Insights-Implytics| RFM segmentation and behavioural clustering using   transactional data. | R, tidyverse, ggplot2, Power BI | ✅ Completed |
 🟡 Product-Segmentation-Implytics| Product mix analysis and demand classification. | R, dplyr, ggplot2 | 🔧 In progress |
-🟢 Retail-Forecast-Implytics| Time-series forecasting of category sales and promotions. | R, Prophet, forecast | 🧩 Planned |
+🟢 Retail-Forecast-Implytics| Time-series forecasting of category sales and promotions. | R, forecast | 🧩 Planned |
 ---
 
 
